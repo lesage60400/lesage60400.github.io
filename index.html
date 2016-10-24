@@ -1,0 +1,406 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>CV</title>
+  <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/js/bootstrap.min.js">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <script src="assets/js/circle-progress.min.js"></script>
+  <script>
+  function change_onglet(name)
+  {
+    document.getElementById('onglet_' + anc_onglet).className = 'onglet_0 onglet';
+    document.getElementById('onglet_' + name).className = 'onglet_1 onglet';
+    document.getElementById('contenu_onglet_' + anc_onglet).style.display = 'none';
+    document.getElementById('contenu_onglet_' + name).style.display = 'block';
+    anc_onglet = name;
+  }
+  </script>
+</head>
+<body>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="nom"><h1>Pierre Lesage</h1></div>
+    <div id="photo" class="col-md-2"><img src="assets/images/photo.jpg" alt="Ma Photo" /></div>
+    <div id="coordonnees" class="col-md-2">
+      <p>14 place de l'espérance</p>
+      <p>60400 NOYON</p><br/>
+      <p>Portable: 06-84-53-69-02</p>
+      <p>Mail : <a href="mailto:p.lesage@ymail.com">p.lesage@ymail.com</a></p><br/>
+      <p>Né le 11 décembre 1980</p></br>
+    </div>
+    <div class="col-md-1">
+      <a class="iconegit" href="https://twitter.com/Lesage60400"><i class="fa fa-twitter fa-stack-2x"></i></a><br/>
+      <br/>
+      <br/>
+      <a class="iconegit" href="https://www.facebook.com/profile.php?id=100012734205380"><i class="fa fa-facebook fa-stack-2x"></i></a><br/>
+      <br/>
+      <br/>
+      <a class="iconegit" href="https://github.com/lesage60400"><i class="fa fa-github fa-stack-2x"></i></a><br>
+      <br/>
+      <br/>
+      <a class="iconegit" href="https://www.linkedin.com/in/pierre-lesage-b13107125?trk=hp-identity-name"><i class="fa fa-linkedin fa-stack-2x"></i></a><br>
+      <br/>
+      <br/>
+      <a class="iconegit" href="https://bitbucket.org/lesage60400/"><i class="fa fa-bitbucket fa-stack-2x"></i></a>
+      <br/>
+      <br/>
+    </div>
+    <div class="col-md-7 accroche">
+      <h2>Développeur web junior</h2>
+      <div class="phrase"><p>"Passionné par le développement web et par les nouvelles technologies, je suis à la recherche d'un emploi qui va me permettre de mettre à profit mes connaissances acquises et de les approfondir."</p></div>
+    </div>
+  </div>
+  <div class="systeme_onglets">
+    <div class="onglets">
+      <span class="onglet_0 onglet" id="onglet_presentation" onclick="javascript:change_onglet('presentation');">Présentation</span>
+      <span class="onglet_0 onglet" id="onglet_competences" onclick="javascript:change_onglet('competences');">Compétences</span>
+      <span class="onglet_0 onglet" id="onglet_formations" onclick="javascript:change_onglet('formations');">Formations</span>
+      <span class="onglet_0 onglet" id="onglet_experiences" onclick="javascript:change_onglet('experiences');">Expériences</span>
+    </div>
+  </div>
+  <div class="contenu_onglets">
+    <div class="contenu_onglet" id="contenu_onglet_presentation">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="presentation"><p>Mon nom est Pierre Lesage, j'ai 35 ans. Après une première expérience en comptabilité, j'ai décidé de faire une reconversion professionnelle dans le développement web.</p></div>
+        </div>
+        <div class="col-md-6">
+          <p>Loisirs</p>
+          <ul>
+            <li>Tennis : Arbitre de chaise (niveau régional), joueur (Classement 30/3)</li>
+            <li>Equitation : Niveau Galop 7</li>
+            <li>Football : Arbitre niveau départemental</li>
+            <li>Judo : Ceinture marron</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="contenu_onglet" id="contenu_onglet_formations">
+      <p>2016 > Préparation titre professionnel "Développeur Logiciel" (Titre certifié RNCP de niveau III Equivalent Bac + 2).</p>
+      <p>2016 > Formation de développeur web à l'Ecole du Numérique du Noyonnais(E2N) : Formation labellisée Grande école du numérique par l'Etat.</p>
+      <p>2008 > Diplôme d'Etude Comptable et Financière (bac+4)</p>
+    </div>
+    <div class="contenu_onglet" id="contenu_onglet_experiences">
+      <div class="row">
+        <div class="col-md-6">
+          <strong>Développement web</strong>
+          <ul>
+            <li>E2N</li>
+          <ul>
+            <li>Création et maintenance du site internet <a href="http://formation.novei.fr">formation.novei.fr</a></li>
+            <li>Animation d'atelier d'initiation aux codes pour les jeunes</li>
+            <li>Création d'un site de e-commerce (articles de vacances)</li>
+            <li>Création d'un template pour le "club RH" de Saint Gobain Developpement</li>
+            <li>Atelier "reverse mentoring" avec les DRH du groupe Saint Gobain (classé 2ème du concours intra entreprise)</li>
+          </ul>
+        </ul>
+        </div>
+        <div class="col-md-6">
+          <strong>Comptabilité</strong>
+          <ul>
+            <li>2008 - 2009 : <em>Aide Comptable à </em><strong>Ajinomoto Foods Europe SAS à Mesnil Saint Nicaise(80)</strong></li>
+            <ul>
+              <li>S'occuper d'une partie des clotures comptable périodique</li>
+              <li>Comptabilité fournisseurs</li>
+            </ul>
+            <li>2009 - 2010 : <em>Aide Comptable à </em><strong>Yves Saint Laurent à Lassigny(60)</strong></li>
+            <ul>
+              <li>Gestion des immobilisations</li>
+              <li>Gestion des encaissements boutique</li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="contenu_onglet" id="contenu_onglet_competences">
+      <div class="row">
+       <div class="col-md-12 menuCategories">
+         <span class="categoriesCompetences titreLangages"><strong>Langages</strong></span> - <span class="categoriesCompetences titrecms"><strong>CMS</strong></span> - <span class="categoriesCompetences titreFrameworks"><strong>Frameworks</strong></span> - <span class="categoriesCompetences titreSystemesExploitation"><strong>Systèmes d'exploitations</strong></span> - <span class="categoriesCompetences titreOutils"><strong>Outils</strong></span>
+       </div>
+       <script>
+       $(document).ready(function(){
+         var titresCategories = $(".categoriesCompetences");
+         var titreLangages = $(".titreLangages");
+         var titrecms = $(".titrecms");
+         var titreFrameworks = $(".titreFrameworks");
+         var titreSystemesExploitation = $(".titreSystemesExploitation");
+         var titreOutils = $(".titreOutils");
+         var contenuCompetences = $(".contenu-competences");
+         var langages = $(".langages");
+         var cms = $(".cms");
+         var frameworks = $(".frameworks");
+         var systemesExploitation = $(".systemesExploitation");
+         var outils = $(".outils");
+         titreLangages.addClass("selected");
+         titresCategories.click(function(){
+           titresCategories.removeClass("selected");
+           $(this).addClass("selected");
+         });
+         contenuCompetences.css("display","none");
+         langages.css("display","block");
+         titreLangages.click(function(){
+           contenuCompetences.css("display","none");
+           langages.fadeToggle("display");
+         });
+         titrecms.click(function(){
+           contenuCompetences.css("display","none");
+           cms.fadeToggle("display");
+         });
+         titreFrameworks.click(function(){
+           contenuCompetences.css("display","none");
+           frameworks.fadeToggle("display");
+         });
+         titreSystemesExploitation.click(function(){
+           contenuCompetences.css("display","none");
+           systemesExploitation.fadeToggle("display");
+         });
+         titreOutils.click(function(){
+           contenuCompetences.css("display","none");
+           outils.fadeToggle("display");
+         });
+       });
+       </script>
+     </div>
+      <div class="contenu-competences langages">
+        <p class="categorie-competences"><strong>Langages</strong></p>
+      <p class="sousCategorieCompetences">Front-end</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+              <p>HTML > 80%</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+              <p>CSS > 80%</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              <p>Javascript > 60%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="sousCategorieCompetences">Back-end</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+              <p>PHP > 70%</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+              <p>SQL > 70%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contenu-competences cms">
+      <p class="categorie-competences"><strong>CMS</strong></p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+            <p>Prestashop > 60%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div class="contenu-competences frameworks">
+        <p class="categorie-competences"><strong>Frameworks</strong></p>
+      <p class="sousCategorieCompetences">CSS</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+              <p>Bootstrap > 70%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <p class="sousCategorieCompetences">Javascript</p>
+        <div class="row">
+        <div class="col-md-4">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              <p>AngularJS > 60%</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              <p>Jquery > 60%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="sousCategorieCompetences">PHP</p>
+      <div class="row">
+      <div class="col-md-4">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+            <p>Symfony > 50%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="contenu-competences systemesExploitation">
+      <p class="categorie-competences"><strong>Systèmes d'exploitation</strong></p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+            <p>Linux > 70%</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+            <p>Windows > 80%</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+      <div class="contenu-competences outils">
+        <p class="categorie-competences"><strong>Outils</strong></p>
+      <p class="sousCategorieCompetences">Editeur de texte et IDE</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+              <p>Atom > 70%</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              <p>Netbeans > 60%</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <p class="sousCategorieCompetences">Gestion des bases de données</p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                <p>Workbench > 60%</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                <p>PHP My Admin > 70%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="sousCategorieCompetences">Versionning</p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                <p>Git > 70</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                <p>Github > 60%</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                <p>Bitbucket > 80%</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <p class="sousCategorieCompetences">Gestion de projet</p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                  <p>Trello > 60%</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                  <p>Smaps > 50%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="sousCategorieCompetences">Autres</p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                  <p>Bower > 60%</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                  <p>Grunt > 50%</p>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-4">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                    <p>Sass > 40%</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                    <p>GIMP > 60%</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                    <p>Photoshop > 60%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      <script>
+      var anc_onglet = 'presentation';
+      change_onglet(anc_onglet);
+      </script>
+    </div>
+  </div>
+  </body>
+  </html>

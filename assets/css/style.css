@@ -1,0 +1,134 @@
+@font-face{
+  font-family:"Roboto";
+  src:url("../fonts/Roboto-Regular.ttf");
+}
+@font-face{
+  font-family:"Coneria Script";
+  src:url("../fonts/Demo_ConeriaScript.ttf");
+}
+.nom{
+  margin-top:10px;
+  text-align:center;
+  margin-bottom:20px;
+  font-family:"Coneria Script";
+  font-size:50 !important;
+}
+img{
+  display:block;
+  margin:auto;
+  width:175px;
+  height: 263px;
+}
+.accroche{
+  text-align: center;
+}
+li{
+  margin:15px;
+  font-size:15;
+}
+h1{
+  text-align:center;
+  padding:0px;
+}
+.onglet
+{
+  display:inline-block;
+  padding:3px;
+  border:1px solid black;
+  cursor:pointer;
+}
+.onglet_0
+{
+  background:#bbbbbb;
+  border-bottom:1px solid black;
+}
+.onglet_1
+{
+  background:#dddddd;
+  border-bottom:0px solid black;
+  padding-bottom:4px;
+}
+.contenu_onglet
+{
+  background-color:#dddddd;
+  border:1px solid black;
+  margin-top:-1px;
+  padding:1px;
+  display:none;
+}
+ul
+{
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left:0px
+}
+#photo, #coordonnees, #iconegit {
+  float : left;
+  text-align:center;
+  margin-bottom: 10px;
+}
+#coordonnees{
+  text-align:center;
+  font-size:15;
+}
+#coordonnees p{
+  margin-top: 7%;
+}
+#iconegit{
+  font-size : 25px;
+  top : 30px;
+  color : #848484;
+  margin-bottom:100px;
+  text-align:right;
+  margin-right:30px;
+}
+body{
+  background-color: #A9A9A9 !important;
+  font-family: "Roboto" !important;
+}
+*::after, *::before {
+  box-sizing: border-box;
+}
+*::after, *::before {
+  box-sizing: border-box;
+}
+.GRiNCH {
+  border-bottom: 1px dashed #fff;
+  padding: 20px 0 20px 20px;
+}
+.GNiDDAPUOYKCUF, .HARRiCOPTER {
+  padding-left: 20px;
+  padding-right: 0;
+}
+.c100 p25{
+  color:green;
+}
+h1{
+  margin:auto !important;
+}
+.phrase{
+  font-size: 17;
+  margin-top: 7%;
+}
+.nom h1{
+  font-size:45;
+}
+#presentation{
+  text-align: center;
+  margin-top: 10%;
+}
+.categorie-competences{
+  font-size:17;
+}
+.sousCategorieCompetence{
+  font-size: 12;
+}
+.menuCategories{
+ text-align:center;
+}
+.categoriesCompetences{
+ cursor: pointer;
+}
+.selected{
+ text-decoration: underline;
+}
